@@ -1,6 +1,38 @@
 body {
   font-family: "Lato", sans-serif;
 }
+/* Main Customization*/
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  color: white;
+}
+#newsletterForm {
+  margin: auto;
+  padding-top: 10%;
+  width: 80%;
+  color: #e6e6e6;
+  text-align: center;
+}
+#newsletterForm form {
+  margin: auto;
+  width: 100%;
+}
+.formInput{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0 8px;
+  background-color: #595959;
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid #808080;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.formInput:focus {
+  border: 2px solid #333333;
+}
 .error{
   color: #FF0000;
 }
@@ -14,18 +46,15 @@ body {
   height: 100%;
 }
 /*    Backgrounds for the Planets   */                                       
-.Background{
+.background{
 	position:absolute;
 	left: 15%;
 	top:10%;
 }
-
-.Saturn{
-	position:absolute;
-	left: -4%;
-	top:10%;
+.background img {
+  width: 90%;
+  height: 90%;
 }
-
 /*    Backgrounds for the Planets   */   
 .Header{
   position: absolute;
@@ -36,8 +65,6 @@ body {
   right: 13.5%;
   top:4%;
 }
-
-
 .Title{
   color: #f58470;
   font-size: 2.5em;
@@ -101,15 +128,6 @@ body {
   position: fixed;
   left: 45%;
 }
-.planetText{
-  margin:auto;
-  width: 60%;
-  font-size:1.1em;
-}
-.planetImage{
-  margin:auto;
-  width: 60%;
-}
 /* Side Navigator Customization*/
 .sidenav {
   height: 100%;
@@ -157,36 +175,4 @@ body {
 }
 .closebtn:hover {
   color:white;
-}
-/* Main Customization*/
-#main {
-  transition: margin-left 0.5s;
-  padding: 16px;
-  color: white;
-}
-#newsletterForm {
-  margin: auto;
-  padding-top: 10%;
-  width: 80%;
-  color: #e6e6e6;
-  text-align: center;
-}
-#newsletterForm form {
-  margin: auto;
-  width: 100%;
-}
-.formInput{
-  width: 20%;
-  padding: 12px 20px;
-  margin: 8px 0 8px;
-  background-color: #595959;
-  color: white;
-  box-sizing: border-box;
-  border: 2px solid #808080;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}
-.formInput:focus {
-  border: 2px solid #333333;
 }
